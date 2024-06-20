@@ -1,0 +1,82 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+[x-cloak] {
+    display: none;
+}
+.btn-create{
+    background-color: #8f91ff;
+    padding: 10px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    transition: background-color 0.3s ease;
+    border-radius: 5px;
+}
+.btn-create:hover{
+    background-color: #6c6ece;
+    color: rgb(255, 255, 255);
+    transition: background-color 0.3s ease;
+}
+.btn-postop{
+    background-color: #e3e3f5;
+    padding: 10px;
+    border-radius: 5px;
+    width: 100px;
+}
+.btn-postop:hover{
+    background-color: #d1d2f7;
+    padding: 10px;
+    color: black;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    border-radius: 5px;
+}
+.area-content{
+    max-height: 150px;
+}
+.area-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.post-content {
+    max-height: 80px;
+    max-width: 300px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding: 10px;
+}
+.create-area {
+    padding: 24px;
+    max-width: 600px;
+    margin: 0 auto;
+    border-radius: 8px;
+}
+.create-area label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+.create-area input[type="text"],
+.create-area textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+.footer{
+    background-color: #7577db;
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0 -2px 5px rgba(32, 0, 150, 0.76);
+}
